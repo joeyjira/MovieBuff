@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: movies
+#
+#  id          :integer          not null, primary key
+#  title       :string           not null
+#  yr          :integer          not null
+#  score       :float            not null
+#  votes       :integer          not null
+#  director_id :integer          not null
+#
+# == Schema Information
+#
+# Table name: castings
+#
+#  id       :integer          not null, primary key
+#  movie_id :integer          not null
+#  actor_id :integer          not null
+#  ord      :integer          not null
+#
+# == Schema Information
+#
+# Table name: actors
+#
+#  id   :integer          not null, primary key
+#  name :string           not null
+#
